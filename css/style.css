@@ -1,0 +1,179 @@
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+#title{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 300px;
+}
+.mmtitle{
+  width: 400px;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.maintitle{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  color: black;
+}
+.download{
+  height: 50px;
+  color: rgb(59, 54, 54);
+  font-size: 25px;
+  border-radius: 10px;
+}
+.apple{
+  color: black;
+  width: 25px;
+  height: auto;
+}
+#features{
+  padding-left: 600px;
+}
+.iphonedog{
+  display: grid;
+  justify-content: end;
+  align-items: end;
+}
+.playstore{
+  border: solid pink;
+  background-color: #ff4c68;
+  color:white;
+}
+.buttonss{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+}
+.features{
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 80px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.quote{
+  font-size: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display:grid;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.dog{
+  width: 80px;
+  border-radius: 50%;
+}
+.doggy{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  justify-content: center;
+}
+.plan{
+  font-size: 35px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: grid;
+  justify-content: center;
+}
+.para{
+  font-size: 25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: grid;
+  justify-content: center;
+}
+#pricing{
+  display:grid;
+  justify-content: center;
+}
+.pricing{
+  font-size: 19px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 300px;
+  border: #ef8172;
+  border-radius: 10px;
+  color: black;
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.plans{
+  width:1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  gap: 40px;
+}
+.index2{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  display: grid;
+  justify-content: center;
+}
+.mas{
+  background-color: rgb(68, 65, 65);
+  color: white;
+  border-radius: 10px;
+  font-size: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lab{
+  background-color: rgb(68, 65, 65);
+  color: white;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.chi{
+  color: rgb(72, 69, 69);
+  border-radius: 10px;
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.foot{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  padding-left: 300px;
+  padding-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr ;
+}
+footer{
+  padding-top: 100px;
+}
+.powerdby{
+  height: 200px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
